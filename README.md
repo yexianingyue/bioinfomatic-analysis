@@ -14,10 +14,12 @@ git commit -m "增/删/改了哪个目录文件   《名字》"
 `git clone <ssh-url>`
 
 2、往后的维护更新
-`git pull origin master`  拉取远程仓库
-`git add -all`
-`git commit -m ""` # 规则见上
-`git push origin master`  # 推送到远程仓库
+```
+git pull origin master  拉取远程仓库
+git add -all
+git commit -m "" # 规则见上
+git push origin master  # 推送到远程仓库
+```
 
 
 
