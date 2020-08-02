@@ -7,7 +7,6 @@ library(heatmap.plus)
 library(RColorBrewer)
 rm(list=ls())
 #下三角矩阵>补全矩阵（将ani.martirx矩阵将行名转置加列名，增加表头）
-you <- read.table("clipboard",sep = "\t",header = T,row.names = 1)
 you <- read.table("inputdata.txt",sep = "\t",header = T,row.names = 1)
 you<-as.matrix(you)
 you[is.na(you)]=0
